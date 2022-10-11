@@ -10,6 +10,8 @@
 // Note:
 // Your points are not included in the array of your class's points. For calculating the average point you may add your point to the given array!
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 let classPoints = [12, 23, 34, 45, 56, 67, 78, 89, 90];
 let yourPoints = 9;
 
@@ -22,7 +24,7 @@ let totalPoints = classPoints.reduce((accum, currentValue) => {
 let average = totalPoints / classPoints.length;
 
 if (average > yourPoints) {
-  return false;
+  // console.log(false);
 } else {
-  return true;
+  // console.log(true);
 }

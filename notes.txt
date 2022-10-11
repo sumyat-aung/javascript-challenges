@@ -1,0 +1,30 @@
+# NOTES 
+
+no - 1
+
+- In order to sort out numbers 
+array.sort(compareFunc);
+let compareFunc = (a, b) => {
+  return a - b;
+  // if the return is > 0  => a
+  // if the return is 0 => none
+  // if the return is < 0 => b
+};
+
+
+no - 2 
+
+- usage of reduce (the ONE result of all array index, eg. The total sum of -- )
+classPoints.reduce((accum, currentValue) => {
+  return accum + currentValue;
+}, 0);
+// accum is THE second arguments of redues = initializing as 0 , currentValue is each index of array 
+
+
+no - 3
+
+- map / fliter method (gives new array)
+- reduce / sort / push / pop / shift / unshift (acted on SELF array)
+
+
+no - 4

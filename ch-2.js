@@ -6,13 +6,12 @@
 
 // Mind the input validation.
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 let array = [-6, -20, -1, -10, -12];
 
 let compareFunc = (a, b) => {
   return a - b;
-  // if the return is > 0  => a
-  // if the return is 0 => none
-  // if the return is < 0 => b
 };
 
 array.sort(compareFunc);
@@ -24,4 +23,4 @@ let result = array.reduce((accum, currentValue) => {
   return accum + currentValue;
 }, 0);
 
-return result;
+// console.log(result);
