@@ -1,6 +1,6 @@
 # NOTES 
 
-no - 1
+# 1
 
 - In order to sort out numbers 
 array.sort(compareFunc);
@@ -12,7 +12,7 @@ let compareFunc = (a, b) => {
 };
 
 
-no - 2 
+# 2
 
 - usage of reduce (the ONE result of all array index, eg. The total sum of -- )
 classPoints.reduce((accum, currentValue) => {
@@ -21,13 +21,13 @@ classPoints.reduce((accum, currentValue) => {
 // accum is THE second arguments of redues = initializing as 0 , currentValue is each index of array 
 
 
-no - 3
+# 3
 
 - map / fliter method (gives new array)
 - reduce / sort / push / pop / shift / unshift (acted on SELF array)
 
 
-no - 4
+# 4
 
 const nums = [1, 2, 3]
 Math.min(nums)    // NaN
@@ -40,4 +40,3 @@ Math.max.apply(Math, nums)    // 3
 Math.min.apply(null, nums)    // 1
 Math.max.apply(null, nums)    // 3
 
-no - 5
