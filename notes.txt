@@ -18,7 +18,7 @@ no - 2
 classPoints.reduce((accum, currentValue) => {
   return accum + currentValue;
 }, 0);
-// accum is THE second arguments of redues = initializing as 0 , currentValue is each index of array 
+// accum is THE first arguments of redues = initializing as 0 , currentValue is each index of array 
 
 
 no - 3
@@ -40,4 +40,30 @@ Math.max.apply(Math, nums)    // 3
 Math.min.apply(null, nums)    // 1
 Math.max.apply(null, nums)    // 3
 
+
 no - 5
+
+split('') => turns a string to an array , eg - string.split(",") => string will be split into an array with coma
+let string = "hi,my,name,is,su,myat,aung" 
+
+the output  => [ 'hi', 'my', 'name', 'is','su', 'myat','aung' ]
+
+
+no-6 
+
+Array.reverse()  => reverse an array 
+eg . [a , b , c , d] => [d , c , b , a]
+
+
+no-7
+
+.join(",")   => join an array to a string with coma 
+eg : ["A" , "B" , "C" , "D" ]  =>   "A , B , C , D"
+
+
+no-8 
+
+The Math.ceil() function always rounds up and returns the smaller integer greater than or equal to a given number. 
+console.log(Math.ceil(.95)); => output: 1
+console.log(Math.ceil(4)); =>  output: 4
+
