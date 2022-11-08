@@ -13,4 +13,4 @@ let h = 4,
 let totalSecond = h * 3600 + m * 60 + s;
 let mili = totalSecond * 1000;
 
-// console.log(mili);
+console.log(mili);

@@ -7,7 +7,7 @@
 let number = 129304; // must be every number
 
 if (number % 2 === 0) {
-  //   console.log(number * 8);
+  console.log(number * 8);
 } else {
-  //   console.log(number * 9);
+  console.log(number * 9);
 }

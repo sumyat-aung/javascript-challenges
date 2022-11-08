@@ -23,4 +23,4 @@ let result = array.reduce((accum, currentValue) => {
   return accum + currentValue;
 }, 0);
 
-// console.log(result);
+console.log(result);

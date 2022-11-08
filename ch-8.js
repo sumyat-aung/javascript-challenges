@@ -18,4 +18,4 @@ let finalAns = result.reduce((accum, current) => {
   return accum + current;
 }, 0);
 
-// console.log(finalAns);
+console.log(finalAns);

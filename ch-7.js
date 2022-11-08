@@ -12,4 +12,4 @@ for (let i = 0; i <= n; i++) {
   resultMath.push(2 ** i);
 }
 
-// console.log(resultMath);
+console.log(resultMath);

@@ -17,7 +17,7 @@ let mpg = 90;
 let fuelLeft = 2;
 
 if (mpg * fuelLeft === distanceToPump) {
-  //   console.log(true);
+  console.log(true);
 } else {
-  //   console.log(false);
+  console.log(false);
 }

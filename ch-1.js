@@ -24,7 +24,7 @@ let totalPoints = classPoints.reduce((accum, currentValue) => {
 let average = totalPoints / classPoints.length;
 
 if (average > yourPoints) {
-  // console.log(false);
+  console.log(false);
 } else {
-  // console.log(true);
+  console.log(true);
 }

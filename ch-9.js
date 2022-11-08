@@ -10,4 +10,4 @@ let b = true; // must be any boolean
 
 let result = JSON.stringify(b);
 
-// console.log(result);
+console.log(result);

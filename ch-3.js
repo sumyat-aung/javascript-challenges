@@ -29,7 +29,7 @@ if (
   firstLetterBeast === firstLetterdish &&
   lastLetterBeast === lastLetterdish
 ) {
-  //   console.log(true);
+  console.log(true);
 } else {
-  //   console.log(false);
+  console.log(false);
 }

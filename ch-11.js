@@ -14,4 +14,4 @@ for (let i = 0; i < array.length; i++) {
     result.push(array[i]);
   }
 }
-// console.log(result);
+console.log(result);

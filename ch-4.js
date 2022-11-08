@@ -10,4 +10,4 @@ let numbers = [-52, 56, 30, 29, -54, 0, -110];
 let smallest = Math.min.apply(Math, numbers);
 let largest = Math.max.apply(Math, numbers);
 
-// console.log(smallest, largest);
+console.log(smallest, largest);
