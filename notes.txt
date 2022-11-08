@@ -1,6 +1,6 @@
 # NOTES 
 
-no - 1
+# 1
 
 - In order to sort out numbers 
 array.sort(compareFunc);
@@ -12,7 +12,7 @@ let compareFunc = (a, b) => {
 };
 
 
-no - 2 
+# 2
 
 - usage of reduce (the ONE result of all array index, eg. The total sum of -- )
 classPoints.reduce((accum, currentValue) => {
@@ -21,13 +21,13 @@ classPoints.reduce((accum, currentValue) => {
 // accum is THE first arguments of redues = initializing as 0 , currentValue is each index of array 
 
 
-no - 3
+# 3
 
 - map / fliter method (gives new array)
 - reduce / sort / push / pop / shift / unshift (acted on SELF array)
 
 
-no - 4
+# 4
 
 const nums = [1, 2, 3]
 Math.min(nums)    // NaN
@@ -41,7 +41,7 @@ Math.min.apply(null, nums)    // 1
 Math.max.apply(null, nums)    // 3
 
 
-no - 5
+# 5
 
 split('') => turns a string to an array , eg - string.split(",") => string will be split into an array with coma
 let string = "hi,my,name,is,su,myat,aung" 
@@ -49,21 +49,20 @@ let string = "hi,my,name,is,su,myat,aung"
 the output  => [ 'hi', 'my', 'name', 'is','su', 'myat','aung' ]
 
 
-no-6 
+# 6 
 
 Array.reverse()  => reverse an array 
 eg . [a , b , c , d] => [d , c , b , a]
 
 
-no-7
+# 7
 
 .join(",")   => join an array to a string with coma 
 eg : ["A" , "B" , "C" , "D" ]  =>   "A , B , C , D"
 
 
-no-8 
+# 8 
 
 The Math.ceil() function always rounds up and returns the smaller integer greater than or equal to a given number. 
 console.log(Math.ceil(.95)); => output: 1
 console.log(Math.ceil(4)); =>  output: 4
-
