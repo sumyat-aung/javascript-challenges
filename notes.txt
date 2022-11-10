@@ -66,3 +66,9 @@ eg : ["A" , "B" , "C" , "D" ]  =>   "A , B , C , D"
 The Math.ceil() function always rounds up and returns the smaller integer greater than or equal to a given number. 
 console.log(Math.ceil(.95)); => output: 1
 console.log(Math.ceil(4)); =>  output: 4
+
+
+#9 
+
+arr.include(something)  => return true or false 
+includes() method determines whether a string contains the given characters within it or not.

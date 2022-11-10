@@ -11,7 +11,7 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 function bodyMass(weight, height) {
-  let bmi = weight / (height * 2);
+  let bmi = weight / height ** 2;
 
   if (bmi <= 18.5) {
     console.log("Underweight");
