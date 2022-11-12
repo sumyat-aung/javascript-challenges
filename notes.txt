@@ -72,3 +72,8 @@ console.log(Math.ceil(4)); =>  output: 4
 
 arr.include(something)  => return true or false 
 includes() method determines whether a string contains the given characters within it or not.
+
+
+#10 
+
+arr.splice(index, count)   = [1,2,3,4,5,6].splice(3,1) => [4]
